@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.clock-body{
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 80vh;
+    width: 80vh;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    position: relative;
+    flex-direction: row-reverse;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: teal;
+
+}
+.center-point{
+    border: 1px solid black;
+    height: 5px;
+    width: 5px;
+    background: black;
+    position: absolute;
+    top: 39.7vh;
+    right: 39.6vh;
+}
+.numbers{
+    border: 1px solid black;
+    height: 40vh;
+    width: 39.7vh;
+    position: relative;
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between; */
+}
+.num4{
+    border-radius: 1000px 0 0 0;
+    border: 0;
+}
+.num3{
+    border-radius: 0  0  0 1000px;
+    border: 0;
+}
+.num2{
+    border-radius: 0 0 1000px 0;
+    border: 0;
+}
+.num1{
+    border-radius: 0 1000px 0 0;
+    border: 0;
+}
+p{
+    position: absolute;
+    font-weight: 600;
+    font-size: 20px;
+}
+.n12{
+    top: 1vh;
+    right: -1.3vh;
+}
+.n11{
+    top: 7vh;
+    right: 17vh;
+}
+.n10{
+    top: 20vh;
+    left: 7vh;
+}
+.n9{
+    top: -1.5vh;
+    left: 1vh;
+}
+.n8{
+    top: 18vh;
+    left: 8vh;
+}
+.n7{
+    bottom: 6vh;
+    left: 22vh;
+}
+.n6{
+    bottom: 1vh;
+    left: -0.8vh;
+}
+.n5{
+    bottom: 6vh;
+    right: 22vh;
+}
+.n4{
+    top: 18vh;
+    right: 8vh;
+}
+.n3{
+    bottom: -1.5vh;
+    right: 1vh;
+}
+.n2{
+    top: 20vh;
+    right: 7vh;
+}
+.n1{
+    top: 7vh;
+    left: 17vh;
+}
+.hand{
+    position: absolute;
+    bottom: 40vh;
+    right: 39.9vh;
+    transform-origin: bottom;
+    transform: translateX(-50%) rotate(0deg);
+    transition: transform 0.5 ease-in-out;
+}
+.min-hand{
+    width: 3px;
+    background: grey;
+    height: 180px;
+}
+.hour-hand{
+    background: black;
+    width: 4px;
+    height: 100px
+}
+.second-hand{
+    height: 200px;
+    width: 2px;
+    background: red;
+}
