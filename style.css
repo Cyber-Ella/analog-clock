@@ -10,11 +10,9 @@
     height: 50vh;
     width: 70%;
     background: white;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    /* display: flex;
+    display: flex;
     align-items: center;
-    justify-content: center; */
+    justify-content: center; 
     position: relative;
     flex-direction: row-reverse;
 }
