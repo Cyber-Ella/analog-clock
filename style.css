@@ -19,8 +19,7 @@
     flex-direction: row-reverse;
 }
 .container{
-    height: 100vh;
-    width: 100%;
+    padding: 30px;
     display: flex;
     text-align: center;
     align-items: center;
